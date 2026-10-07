@@ -1,0 +1,15 @@
+{
+  "name": "nexus-ai-research-synthesizer",
+  "version": "1.0.0",
+  "description": "Nexus: AI Research Synthesizer - End-to-end AI document intelligence platform",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "dev": "npm run server & npm run client",
+    "migrate": "npm --prefix server run migrate",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": ["ai", "research", "gemini", "synthesis", "supabase", "react"],
+  "author": "Nexus Team",
+  "license": "MIT"
+}
